@@ -20,5 +20,5 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-  "exclude": ["prettier.config.mts"]
+  "exclude": ["prettier.config.mts", "dist"]
 }
