@@ -7,6 +7,9 @@
     "url": "git+ssh://git@github.com/sorokchat-messenger/shared-events.git"
   },
   "main": "./dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@sorokchat-messenger/core": "^1.0.0",
     "prettier": "^3.9.10",
