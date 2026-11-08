@@ -7,6 +7,7 @@
     "url": "git+ssh://git@github.com/sorokchat-messenger/shared-events.git"
   },
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "publishConfig": {
     "access": "public"
   },
@@ -17,8 +18,8 @@
   },
   "exports": {
     ".": {
-      "types": "./index.d.ts",
-      "import": "./index.js"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     }
   },
   "bugs": {
@@ -39,6 +40,5 @@
   "scripts": {
     "build": "tsc"
   },
-  "type": "module",
-  "types": "./dist/index.d.ts"
+  "type": "module"
 }
