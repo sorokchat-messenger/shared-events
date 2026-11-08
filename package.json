@@ -1,6 +1,6 @@
 {
   "name": "@sorokchat-messenger/shared-events",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Sorokovsky Andrey <Sorokovsky0809@gmail.com>",
   "repository": {
     "type": "git",
@@ -22,7 +22,9 @@
     "url": "https://github.com/sorokchat-messenger/shared-events/issues"
   },
   "description": "Shared events for sorokchat messenger",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/sorokchat-messenger/shared-events#readme",
   "keywords": [
     "shared",
