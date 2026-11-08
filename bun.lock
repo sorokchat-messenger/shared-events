@@ -1,0 +1,21 @@
+{
+  "lockfileVersion": 2,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "@sorokchat-messenger/shared-events",
+      "devDependencies": {
+        "@sorokchat-messenger/core": "^1.0.0",
+        "prettier": "^3.9.10",
+        "typescipt": "^1.0.0",
+      },
+    },
+  },
+  "packages": {
+    "@sorokchat-messenger/core": ["@sorokchat-messenger/core@1.0.0", "", { "peerDependencies": { "prettier": "^3.9.6" } }, "sha512-DxKnCJ4u4TEpU25DAiuXOdY3miI8WelEzxlvCKZJbhdhwXtdqfsnl6W8dRp3HQpiE3xDZqWImkB8TmiBN31/sQ=="],
+
+    "prettier": ["prettier@3.9.10", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA=="],
+
+    "typescipt": ["typescipt@1.0.0", "", {}, "sha512-Rgg7DtWh0c0oJPz2p48B0hlINIkE5zxU5i+dGctkoiKjIu6twl0HXWzoy+mvp9bQfLJGx70zYuN6GK0S/x5Kxw=="],
+  }
+}

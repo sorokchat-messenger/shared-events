@@ -1,0 +1,39 @@
+{
+  "name": "@sorokchat-messenger/shared-events",
+  "version": "1.0.0",
+  "author": "Sorokovsky Andrey <Sorokovsky0809@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sorokchat-messenger/shared-events.git"
+  },
+  "main": "./dist/index.js",
+  "devDependencies": {
+    "@sorokchat-messenger/core": "^1.0.0",
+    "prettier": "^3.9.10",
+    "typescipt": "^1.0.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/sorokchat-messenger/shared-events/issues"
+  },
+  "description": "Shared events for sorokchat messenger",
+  "files": ["dist"],
+  "homepage": "https://github.com/sorokchat-messenger/shared-events#readme",
+  "keywords": [
+    "shared",
+    "events",
+    "sorokchat",
+    "messenger"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "type": "module",
+  "types": "./dist/index.d.ts"
+}
